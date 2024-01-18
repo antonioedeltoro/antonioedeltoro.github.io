@@ -4,33 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Page: Don't Panic</title>
-    <style></style>
+    <style>
+        a {
+            color: red;
+        }
+        div {
+            border: 1px solid black;
+        }
+        div a {
+            color: green;
+        }
+        li {
+            border: 1px solid yellow;
+        }
+
+        #exec-bio {
+            background-color: lightgray;
+        }
+
+        .bio-box {
+            border: 1px solid black;
+        }
+
+        .bio-box a {
+            color: green;
+        }
+    </style>
 </head>
 <body>
     <h1>I'm an h1</h1>
     <ul>
         <li>
-            <a href="..." style="color: red;">Link</a>
+            <a href="...">Link</a>
         </li>
         <li>
-            <a href="..." style="color: red;">Link</a>
+            <a href="...">Link</a>
         </li>
         <li>
-            <a href="..." style="color: red;">Link</a>
+            <a href="...">Link</a>
         </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;">
-        <a href="..."></a>
-    </div style="border: 1px solid black;">
-    <div>
-        <a href="..."></a>
+    <div id="exec-bio" class="bio-box">
+        <a href="...">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-        <a href="..."></a>
+    <div class="bio-box">
+        <a href="...">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-        <a href="..."></a>
+    <div class="bio-box">
+        <a href="...">I'm a link</a>
+    </div>
+    <div class="bio-box">
+        <a href="...">I'm a link</a>
     </div>
 </body>
 </html>
