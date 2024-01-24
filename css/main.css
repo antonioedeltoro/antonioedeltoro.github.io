@@ -57,7 +57,7 @@ a {
   color: #f00;
 }
 body {
-    font-family: helvetica, arial, sans;
+    font-family: helvetica, arial, sans-serif;
 } 
 /* HERO STYLES */
 .full-hero {
@@ -114,10 +114,13 @@ body {
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
-
 }
 .bio-box img {
   width: 100%;
+}
+.bio-box .social-link {
+    display: block;
+    margin: 2em 0 1em;
 }
 .bio-copy {
   font-size: 1em;
